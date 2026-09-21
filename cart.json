@@ -1,0 +1,16 @@
+{
+  "page": "Cart",
+  "route": "/cart",
+  "description": "หน้าตะกร้า — ตรวจสอบรายการสั่งซื้อและยอดรวม",
+  "images": [],
+  "note": "หน้าตะกร้าไม่มีรูปภาพของตัวเอง — รูปสินค้าแต่ละรายการดึงจากข้อมูลเมนู (menu.json / drinks.json)",
+  "text": {
+    "title": { "th": "ตรวจสอบคำสั่งซื้อ", "en": "Review Order", "ja": "ご注文の確認" },
+    "subtotal": { "th": "รวมย่อย", "en": "Subtotal", "ja": "小計" },
+    "totalLabel": { "th": "รวมทั้งหมด", "en": "Total", "ja": "合計" },
+    "emptyCart": { "th": "ตะกร้าว่าง", "en": "Your cart is empty", "ja": "カートは空です" },
+    "addMore": { "th": "เพิ่มเมนู", "en": "Add More", "ja": "もっと追加" },
+    "checkout": { "th": "ชำระเงิน", "en": "Checkout", "ja": "お会計へ" }
+  },
+  "actions": ["เพิ่มเมนู → /menu", "ชำระเงิน → /payment"]
+}

@@ -1,0 +1,45 @@
+{
+  "page": "Drinks",
+  "route": "/drinks",
+  "description": "หน้าเครื่องดื่ม — กริดเครื่องดื่มทั้งหมด",
+  "images": [
+    {
+      "id": "mekhong",
+      "label": "เหล้าแม่โขง",
+      "url": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/5d53fdc98_generated_image.png",
+      "usage": "รูปการ์ดเครื่องดื่ม"
+    },
+    {
+      "id": "water",
+      "label": "น้ำเปล่า",
+      "url": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/e0a4d42f6_generated_image.png",
+      "usage": "รูปการ์ดเครื่องดื่ม"
+    }
+  ],
+  "items": [
+    {
+      "id": "mekhong",
+      "category": "drinks",
+      "name": { "th": "เหล้าแม่โขง", "en": "Mekhong Spirit", "ja": "メコン酒" },
+      "desc": {
+        "th": "วิสกี้ไทยแม่โขง รสชาติหอมนุ่ม",
+        "en": "Thai Mekhong spirit, smooth and fragrant.",
+        "ja": "タイのメコン酒、香りまろやか。"
+      },
+      "price": 890,
+      "image": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/5d53fdc98_generated_image.png"
+    },
+    {
+      "id": "water",
+      "category": "drinks",
+      "name": { "th": "น้ำเปล่า", "en": "Water", "ja": "水" },
+      "desc": { "th": "น้ำดื่มบริสุทธิ์", "en": "Pure drinking water.", "ja": "ピュアウォーター。" },
+      "price": 200,
+      "image": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/e0a4d42f6_generated_image.png"
+    }
+  ],
+  "text": {
+    "title": { "th": "เครื่องดื่ม", "en": "Drinks", "ja": "ドリンク" }
+  },
+  "actions": ["กดเพิ่ม → ใส่ตะกร้า", "ปุ่มย้อนกลับ → /menu", "ปุ่มดูตะกร้า → /cart"]
+}

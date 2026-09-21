@@ -1,0 +1,25 @@
+{
+  "page": "Payment",
+  "route": "/payment",
+  "description": "หน้าเลือกวิธีชำระเงิน — PromptPay QR หรือชำระที่เคาน์เตอร์",
+  "images": [
+    {
+      "id": "promptpay-qr",
+      "label": "QR Code PromptPay (รูปจริงสำหรับสแกน)",
+      "url": "https://media.base44.com/images/public/6aaa3a8181822c6f79bea553/8df794822_1789563474687.jpg",
+      "usage": "แสดงใน modal เมื่อเลือกชำระด้วย QR"
+    }
+  ],
+  "methods": [
+    { "id": "qr", "label": { "th": "สแกน QR พร้อมเพย์", "en": "PromptPay QR", "ja": "プロンプトペイQR" } },
+    { "id": "counter", "label": { "th": "ชำระที่เคาน์เตอร์", "en": "Pay at Counter", "ja": "カウンターで支払い" } }
+  ],
+  "text": {
+    "title": { "th": "ชำระเงิน", "en": "Payment", "ja": "お支払い" },
+    "amountDue": { "th": "ยอดที่ต้องชำระ", "en": "Amount Due", "ja": "お支払い金額" },
+    "chooseMethod": { "th": "เลือกวิธีชำระเงิน", "en": "Choose payment method", "ja": "お支払い方法をお選びください" },
+    "scanQrTitle": { "th": "สแกน QR เพื่อชำระเงิน", "en": "Scan QR to Pay", "ja": "QRをスキャンして支払い" },
+    "confirmPayment": { "th": "ยืนยันการชำระเงิน", "en": "Confirm Payment", "ja": "支払いを確認" }
+  },
+  "actions": ["เลือก QR → เปิด modal QR", "ยืนยัน → ไปหน้า /success"]
+}

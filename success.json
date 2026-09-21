@@ -1,0 +1,22 @@
+{
+  "page": "Success",
+  "route": "/success",
+  "description": "หน้าสำเร็จ — แสดงหมายเลขคำสั่งซื้อและขอบคุณลูกค้า",
+  "images": [
+    {
+      "id": "logo",
+      "label": "โลโก้ร้าน Kam Tan",
+      "url": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/d9b921f4f_1789491971002.jpg",
+      "usage": "โลโก้ด้านบนของหน้าสำเร็จ"
+    }
+  ],
+  "text": {
+    "title": { "th": "สำเร็จ!", "en": "Success!", "ja": "成功！" },
+    "subtitle": { "th": "คำสั่งซื้อของคุณได้รับแล้ว", "en": "Your order has been received", "ja": "ご注文を受け付けました" },
+    "thankYou": { "th": "ขอบคุณครับ/ค่ะ", "en": "Thank you", "ja": "ありがとうございます" },
+    "orderNo": { "th": "หมายเลขคำสั่งซื้อ", "en": "Order Number", "ja": "注文番号" },
+    "preparing": { "th": "กำลังเตรียมอาหาร...", "en": "Preparing your order...", "ja": "準備中..." },
+    "startNew": { "th": "เริ่มใหม่", "en": "Start New Order", "ja": "新しい注文を開始" }
+  },
+  "actions": ["กดเริ่มใหม่ → รีเซ็ตตะกร้า → กลับไปหน้า /welcome"]
+}

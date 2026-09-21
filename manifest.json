@@ -1,0 +1,27 @@
+{
+  "title": "Larb Kam Tan — Kiosk Data Export",
+  "generated": "2026-09-19",
+  "purpose": "รวบรวมข้อมูลและรูปภาพของแต่ละหน้า เพื่อใช้บนตู้ Sunmi K2 (Android 7.1.2) แบบออฟไลน์ หรือสำรอง/ย้ายข้อมูล",
+  "pages": [
+    { "page": "Welcome", "file": "welcome.json", "route": "/welcome", "imageCount": 1 },
+    { "page": "DiningOption", "file": "dining.json", "route": "/dining", "imageCount": 3 },
+    { "page": "Home (Menu)", "file": "menu.json", "route": "/menu", "imageCount": 3 },
+    { "page": "Drinks", "file": "drinks.json", "route": "/drinks", "imageCount": 2 },
+    { "page": "Customize", "file": "customize.json", "route": "/customize/:id", "imageCount": 1 },
+    { "page": "Cart", "file": "cart.json", "route": "/cart", "imageCount": 0 },
+    { "page": "Payment", "file": "payment.json", "route": "/payment", "imageCount": 1 },
+    { "page": "Success", "file": "success.json", "route": "/success", "imageCount": 1 }
+  ],
+  "allImages": [
+    "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/c90817b23__20260916_110737_0000.png",
+    "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/d9b921f4f_1789491971002.jpg",
+    "https://media.base44.com/images/public/6aaa3a8181822c6f79bea553/07cdc08d0_orca-image-2061800343jpeg.jpeg",
+    "https://media.base44.com/images/public/6aaa3a8181822c6f79bea553/8cf9c3f7b_Promotimenu_20260917_185343_0000.png",
+    "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/a0a6abd3e_IMG_20260916_011235.jpg",
+    "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/4a797212e_generated_image.png",
+    "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/5d53fdc98_generated_image.png",
+    "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/e0a4d42f6_generated_image.png",
+    "https://media.base44.com/images/public/6aaa3a8181822c6f79bea553/8df794822_1789563474687.jpg"
+  ],
+  "totalImages": 9
+}

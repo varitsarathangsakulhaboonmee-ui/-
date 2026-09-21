@@ -1,0 +1,66 @@
+{
+  "page": "Home (Menu)",
+  "route": "/menu",
+  "description": "หน้าเมนูหลัก — แสดงหมวดหมู่ แบนเนอร์โปรโมชั่น และกริดสินค้า",
+  "images": [
+    {
+      "id": "hero-promo",
+      "label": "แบนเนอร์โปรโมชั่น 2 Dine 1 Free ¥1100",
+      "url": "https://media.base44.com/images/public/6aaa3a8181822c6f79bea553/8cf9c3f7b_Promotimenu_20260917_185343_0000.png",
+      "usage": "แบนเนอร์โปรโมชั่นระหว่างหมวดหมู่กับกริดสินค้า"
+    },
+    {
+      "id": "promotion-larb",
+      "label": "เมนูโปรโมชั่น ลาบคำตัน",
+      "url": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/a0a6abd3e_IMG_20260916_011235.jpg",
+      "usage": "รูปการ์ดสินค้าหมวดอาหาร (มีขนาด S/M/L/XL)"
+    },
+    {
+      "id": "khao-niao",
+      "label": "ข้าวเหนียว",
+      "url": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/4a797212e_generated_image.png",
+      "usage": "รูปการ์ดสินค้าหมวดอาหาร"
+    }
+  ],
+  "categories": [
+    { "id": "all", "name": { "th": "ทั้งหมด", "en": "All", "ja": "すべて" } },
+    { "id": "food", "name": { "th": "อาหาร", "en": "Food", "ja": "フード" } },
+    { "id": "drinks", "name": { "th": "เครื่องดื่ม", "en": "Drinks", "ja": "ドリンク" } }
+  ],
+  "items": [
+    {
+      "id": "promotion-larb",
+      "category": "food",
+      "name": { "th": "เมนูโปรโมชั่น", "en": "Promotion Menu", "ja": "プロモーションメニュー" },
+      "desc": {
+        "th": "ลาบคำตันสูตรพิเศษ หอมข้าวคั่ว สมุนไพร และเครื่องเทศ",
+        "en": "Kam Tan signature larb with roasted rice, herbs and spices.",
+        "ja": "カムタン特製ラープ、香ばしい炒り米とハーブ、スパイス。"
+      },
+      "price": 1100,
+      "customizable": true,
+      "hasSizes": true,
+      "image": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/a0a6abd3e_IMG_20260916_011235.jpg",
+      "sizes": [
+        { "id": "S", "price": 900, "name": { "th": "เล็ก (S)", "en": "Small (S)", "ja": "S（スモール）" } },
+        { "id": "M", "price": 1100, "name": { "th": "กลาง (M)", "en": "Medium (M)", "ja": "M（ミディアム）" } },
+        { "id": "L", "price": 1300, "name": { "th": "ใหญ่ (L)", "en": "Large (L)", "ja": "L（ラージ）" } },
+        { "id": "XL", "price": 1500, "name": { "th": "พิเศษ (XL)", "en": "Extra Large (XL)", "ja": "XL（エクストララージ）" } }
+      ]
+    },
+    {
+      "id": "khao-niao",
+      "category": "food",
+      "name": { "th": "ข้าวเหนียว", "en": "Sticky Rice", "ja": "もち米" },
+      "desc": { "th": "ข้าวเหนียวนึ่งร้อนๆ", "en": "Freshly steamed sticky rice.", "ja": "蒸きたてのもち米。" },
+      "price": 200,
+      "customizable": false,
+      "image": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/4a797212e_generated_image.png"
+    }
+  ],
+  "text": {
+    "title": { "th": "เมนู", "en": "Menu", "ja": "メニュー" },
+    "searchPlaceholder": { "th": "ค้นหาเมนู...", "en": "Search menu...", "ja": "メニューを検索..." }
+  },
+  "actions": ["เลือกหมวด → กดการ์ดที่ปรับแต่งได้ → ไปหน้า Customize", "กดการ์ดทั่วไป → เพิ่มลงตะกร้า"]
+}

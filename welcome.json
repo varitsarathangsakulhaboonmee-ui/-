@@ -1,0 +1,17 @@
+{
+  "page": "Welcome",
+  "route": "/welcome",
+  "description": "หน้าเริ่มต้น / หน้าจอสีแดง กดเพื่อเริ่มต้น",
+  "images": [
+    {
+      "id": "welcome-bg",
+      "label": "พื้นหลังหน้า Welcome",
+      "url": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/c90817b23__20260916_110737_0000.png",
+      "usage": "ภาพพื้นหลังเต็มจอ"
+    }
+  ],
+  "text": {
+    "buttonPrimary": { "th": "กดเพื่อเริ่มต้น", "en": "Touch to Start", "ja": "タッチして開始" }
+  },
+  "actions": ["ไปยังหน้า DiningOption (/dining)"]
+}

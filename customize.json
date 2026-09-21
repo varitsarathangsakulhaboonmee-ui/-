@@ -1,0 +1,40 @@
+{
+  "page": "Customize",
+  "route": "/customize/:id",
+  "description": "หน้าปรับแต่งเมนู — เลือกขนาด ท็อปปิ้ง ระดับความเผ็ด และจำนวน",
+  "images": [
+    {
+      "id": "promotion-larb",
+      "label": "รูปเมนูที่กำลังปรับแต่ง (ลาบคำตัน)",
+      "url": "https://media.base44.com/images/public/6aa6ccecd87a40f04856ee95/a0a6abd3e_IMG_20260916_011235.jpg",
+      "usage": "รูปใหญ่ด้านซ้าย/บนของหน้าปรับแต่ง"
+    }
+  ],
+  "sizes": [
+    { "id": "S", "price": 900, "name": { "th": "เล็ก (S)", "en": "Small (S)", "ja": "S（スモール）" } },
+    { "id": "M", "price": 1100, "name": { "th": "กลาง (M)", "en": "Medium (M)", "ja": "M（ミディアム）" } },
+    { "id": "L", "price": 1300, "name": { "th": "ใหญ่ (L)", "en": "Large (L)", "ja": "L（ラージ）" } },
+    { "id": "XL", "price": 1500, "name": { "th": "พิเศษ (XL)", "en": "Extra Large (XL)", "ja": "XL（エクストララージ）" } }
+  ],
+  "toppings": [
+    { "id": "rice-powder", "price": 200, "name": { "th": "เพิ่มข้าวคั่ว", "en": "Extra roasted rice", "ja": "炒り米追加" } },
+    { "id": "extra-spicy", "price": 300, "name": { "th": "เพิ่มความเผ็ด", "en": "Extra spicy", "ja": "辛さ追加" } },
+    { "id": "veggies", "price": 300, "name": { "th": "เพิ่มผัก", "en": "Extra veggies", "ja": "野菜追加" } }
+  ],
+  "spiceLevels": [
+    { "id": "none", "price": 0, "name": { "th": "ไม่เผ็ด", "en": "Not spicy", "ja": "辛くない" } },
+    { "id": "mild", "price": 0, "name": { "th": "เผ็ดน้อย", "en": "Mild", "ja": "少し辛い" } },
+    { "id": "medium", "price": 0, "name": { "th": "เผ็ดกลาง", "en": "Medium", "ja": "中辛" } },
+    { "id": "hot", "price": 0, "name": { "th": "เผ็ดมาก", "en": "Hot", "ja": "激辛" } }
+  ],
+  "text": {
+    "title": { "th": "ปรับแต่งเมนู", "en": "Customize", "ja": "カスタマイズ" },
+    "size": { "th": "ขนาด", "en": "Size", "ja": "サイズ" },
+    "toppings": { "th": "ท็อปปิ้ง", "en": "Toppings", "ja": "トッピング" },
+    "spiceLevel": { "th": "ระดับความเผ็ด", "en": "Spice Level", "ja": "辛さレベル" },
+    "quantity": { "th": "จำนวน", "en": "Quantity", "ja": "数量" },
+    "total": { "th": "รวม", "en": "Total", "ja": "合計" },
+    "addToCart": { "th": "เพิ่มลงตะกร้า", "en": "Add to Cart", "ja": "カートに追加" }
+  },
+  "actions": ["เพิ่มลงตะกร้า → กลับไปหน้า /menu"]
+}
